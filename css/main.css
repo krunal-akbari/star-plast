@@ -1261,10 +1261,11 @@ display: none; } }
 margin-top: 30px; }
 .add-bag .add-btn {
     height: 50px;
-    width: 50px;
+    color: white;
+    width: 100%;
     line-height: 52px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 12px;
 box-shadow: 0 10px 20px rgba(255, 108, 0, 0.2); }
 .add-bag .add-btn span {
     -webkit-transform: rotate(45deg);
@@ -5817,4 +5818,15 @@ section.owl-carousel.active-product-area.section_gap.owl-theme.owl-loaded {
 }
 section.brand-area.section_gap {
     padding-bottom: 70px;
+}
+.owl-controls {
+    display: none;
+}
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
+    background: #12aeec;
+    color: #fff;
+}
+
+.gradient-bg, .primary-btn, .add-bag .add-btn, .single-product .product-details .prd-bottom .social-info span:after, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .s_Product_carousel .owl-dots div.active, .s_product_text .card_area .icon_btn:after, .product_description_area .nav.nav-tabs li a.active, .blog-pagination .page-item.active .page-link, .single-footer-widget .click-btn {
+    background: linear-gradient(90deg, #007bff 0%, #0ab0f2 100%);
 }
