@@ -18,7 +18,7 @@
             top: 0;
             font-size: 20px;
             line-height: 24px;
-            color: $primary-color;
+            color: #08a1f6;
             font-weight: 600;
         }
         h6 {
@@ -67,7 +67,7 @@
         }
     }
     .primary-btn {
-        background: $primary-color;
+        background: #08a7f4;
         color: #fff;
         margin-top: 20px;
         border: none;
@@ -120,3 +120,10 @@
 
 /* End Contact Success and error Area css
 ============================================================================================ */
+.contact_form .primary-btn {
+    background: #0181fe;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0;
+}
