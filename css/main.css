@@ -5821,9 +5821,6 @@ section.owl-carousel.active-product-area.section_gap.owl-theme.owl-loaded {
 section.brand-area.section_gap {
     padding-bottom: 70px;
 }
-.owl-controls {
-    display: none;
-}
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
     background: #12aeec;
     color: #fff;
@@ -5842,3 +5839,6 @@ i.lnr.lnr-envelope {
     color: #0aadf3;
 }
 
+.owl-item.cloned.active {
+    display: none;
+}
