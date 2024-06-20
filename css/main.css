@@ -5842,3 +5842,9 @@ i.lnr.lnr-envelope {
 .owl-item.cloned.active {
     display: none;
 }
+.banner-area .banner-content h1 {
+    font-size: 55px;
+}
+.product-details {
+    padding-left: 5px;
+}
