@@ -5848,3 +5848,37 @@ i.lnr.lnr-envelope {
 .product-details {
     padding-left: 5px;
 }
+.privacy-section{
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+.privacy-div {
+    width: 65%;
+    margin: 56px auto;
+    justify-content: left;
+}
+.privacy-div h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.privacy-div p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+@media (max-width: 575.98px) {
+    .privacy-section{
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+    .privacy-div {
+        width: 100%;
+        margin: 56px auto;
+        justify-content: left;
+    }
+
+}
