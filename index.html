@@ -76,25 +76,6 @@
                 <div class="row fullscreen align-items-center justify-content-start">
                     <div class="col-lg-12">
                         <div class="active-banner-slider owl-carousel">
-                            <!-- single-slide -->
-                            <div class="row single-slide align-items-center d-flex">
-                                <div class="col-lg-5 col-md-6">
-                                    <div class="banner-content">
-                                        <h1>Hydrate with Our Water Jars</h1>
-                                        <p>Durable, Stylish, and Eco-Friendly Water Jars for Every Lifestyle – Quench Your
-                                        Thirst Anytime, Anywhere </p>
-                                        <div class="add-bag d-flex align-items-center">
-                                            <a class="add-btn" href="contact.html">Contact Us</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div class="banner-img">
-                                        <img class="img-fluid" src="img/banner/banner-img.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single-slide -->
                             <div class="row single-slide">
                                 <div class="col-lg-5">
                                     <div class="banner-content">
@@ -488,91 +469,41 @@
                                 </div> </div> </div> </div> </section>
                                 <!-- end product Area -->
 
-                                <!-- testimonail-section -->
-                                <section id="testimonail-section" class="testimonail-section">
-                                    <div class="testimonail-header">
-                                        <h1 style="text-align: center; margin-bottom: 36px;">Testimonials</h1>
-                                    </div>
-                                    <div class="color-background-1 gradient">
-                                        <div class="section-template--22032721969464__custom_liquid_pTFpjR-padding">
-                                            <div class="list-testi">
-                                                <div class="img-back" style="cursor:pointer">
-                                                    <a onclick="testi_prev()" style="cursor:pointer">
-                                                        <img src="https://cdn.shopify.com/s/files/1/0860/9290/6808/files/arrow.svg?v=1718964541" alt="" class="arrow-img">
-                                                    </a>
-                                                </div>
 
-                                                <div class="testi-wrap">
-                                                    <div class="testimonials" id="testimonials">
-                                                        <div class="testi-item">
-                                                            <div class="testi-text">
-                                                                I unexpectedly was having 12-15 people over my house after a memorial service. I called Chanos and asked if they would be able to provide food for me within 2 hours. Surprisingly, they did not hang up the phone, but rather, the gentleman put me in contact with their caterer. She was extremely kind and helpful. She guided me in choosing food and the team got it done and delivered to my house right on time. I could not be more thrilled to have this amazing restaurant in the town I live in. Thank you!
-                                                            </div>
-                                                            <div class="caption"> <b style="color:black" >Patricia Edgar</b></div>
-                                                        </div>
+                                <section class="testimonial-section">
 
-                                                        <div class="testi-item">
-                                                            <div class="testi-text">
-                                                                Catered a party with Chanos and it was amazing! The caterer was so friendly helpful in placing the order (with only 24 hours notice - very glad they were able to accommodate us). We got the DIY taco bar and it was a hit. The quesadillas were delicious. But the rave reviews were for the homemade chips! Delivery were perfectly on time. Thank you Chanos - will definitely be returning.
-                                                            </div>
-                                                            <div class="caption">
-                                                                <b style="color:black">Carina Gelok</b></div>
-                                                        </div>
-
-                                                        <div class="testi-item">
-                                                            <div class="testi-text">
-                                                                Best Latin food in NJ. The chorizo is unforgettable. Once a week staple. You wont be disappointed!!
-                                                            </div>
-                                                            <div class="caption"><b style="color:black">J M</b></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="img-next" style="cursor:pointer">
-                                                    <a onclick="testi_next()" style="cursor:pointer" class="arrow-img">
-                                                        <img src="https://cdn.shopify.com/s/files/1/0860/9290/6808/files/arrow.svg?v=1718964541" alt="" style="transform: rotate(180deg);">
-                                                    </a>
-                                                </div>
+                                    <div class="wrap-testimonials">
+                                        <div class="testimonials">
+                                            <div class="testimonial-img-wrapper"">
+                                                <img src="img/product/review-1.png" alt="">
                                             </div>
-
-                                            <script>
-                                                let currentSlide = 0;
-                                                const slides = document.querySelectorAll('.testi-item');
-                                                const totalSlides = slides.length;
-
-                                                function updateSlide(position) {
-                                                    const slider = document.getElementById('testimonials');
-                                                    const newPosition = -position * 100; // Move to the position
-                                                    slider.style.transform = `translateX(${newPosition}%)`;
-                                                }
-
-                                                function testi_next() {
-                                                    if (currentSlide < totalSlides - 1) {
-                                                        currentSlide++;
-                                                    } else {
-                                                        currentSlide = 0; // loop back to start
-                                                    }
-                                                    updateSlide(currentSlide);
-                                                    event.preventDefault();
-                                                }
-
-                                                function testi_prev() {
-                                                    if (currentSlide > 0) {
-                                                        currentSlide--;
-                                                    } else {
-                                                        currentSlide = totalSlides - 1; // loop to end
-                                                    }
-                                                    updateSlide(currentSlide);
-                                                    event.preventDefault();
-                                                }
-
-                                            </script>
+                                            <div class="testimonial-text">
+                                                <p>Lorem ipsum dolor sit amet consectetur. Quisque eu in aliquam sit ut nisl pellentesque proin amet. Pretium quis fermentum pretium massa erat consectetur nisl ut. Velit tellus vitae eleifend fringilla urna ultricies.</p>
+                                                <h3>John Doe</h3>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials">
+                                            <div class="testimonial-img-wrapper"">
+                                                <img src="img/product/review-1.png" alt="">
+                                            </div>
+                                            <div class="testimonial-text">
+                                                <p>Lorem ipsum dolor sit amet consectetur. Quisque eu in aliquam sit ut nisl pellentesque proin amet. Pretium quis fermentum pretium massa erat consectetur nisl ut. Velit tellus vitae eleifend fringilla urna ultricies.</p>
+                                                <h3>John Doe</h3>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials">
+                                            <div class="testimonial-img-wrapper"">
+                                                <img src="img/product/review-1.png" alt="">
+                                            </div>
+                                            <div class="testimonial-text">
+                                                <p>Lorem ipsum dolor sit amet consectetur. Quisque eu in aliquam sit ut nisl pellentesque proin amet. Pretium quis fermentum pretium massa erat consectetur nisl ut. Velit tellus vitae eleifend fringilla urna ultricies.</p>
+                                                <h3>John Doe</h3>
+                                            </div>
                                         </div>
                                     </div>
-
+                                </section>
 
                                     <!-- start about us section -->
-
                                     <section  class="about-us section-padding" id="about-us">
                                         <div class="container">
                                             <div class="about-row">
