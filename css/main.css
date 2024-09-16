@@ -1208,7 +1208,9 @@ padding: 0px 15px; } }
 .banner-area {
     background: url(../img/banner/banner-with-text.png) center no-repeat;
     background-size: cover;
-position: relative; }
+position: relative;
+height: 700px;
+}
 @media (max-width: 768px) {
     .banner-area .fullscreen {
 height: 650px !important; } }
@@ -6114,3 +6116,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 }
 /* testimaonal section end */
+
+
+/* footer option */
+.footer-row{
+
+    max-width: 33.33%;
+
+
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* footer option */
