@@ -1209,7 +1209,7 @@ padding: 0px 15px; } }
     background: url(../img/banner/banner-with-text.png) center no-repeat;
     background-size: cover;
 position: relative;
-height: 700px;
+height: 600px;
 }
 @media (max-width: 768px) {
     .banner-area .fullscreen {
@@ -6136,3 +6136,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-left: -15px;
 }
 /* footer option */
+
+
+
+/* last minute change */
+.col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 64.666667%;
+    width: 80%;
+    max-width: 100%;
+}   
+
+.add-bag.d-flex.align-items-center {
+    max-width: 60%;
+}
