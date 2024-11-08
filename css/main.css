@@ -6179,3 +6179,7 @@ footer .row {
     flex: 0 0 60%;
     max-width: 100%;
 }
+
+.row.fullscreen.align-items-center.justify-content-start {
+    min-height: 650px !important;
+}
