@@ -1240,6 +1240,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-area .active-banner-slider .owl-nav .owl-next:hover {
     opacity: 1; }
 .banner-area .banner-content {
+    width: 60%;
     padding-left: 10px; }
 @media (max-width: 991px) {
     .banner-area .banner-content {
@@ -6176,10 +6177,11 @@ footer .row {
 
 .col-lg-5 {
     -ms-flex: 0 0 41.666667%;
-    flex: 0 0 60%;
+    flex: 0 0 70%;
     max-width: 100%;
 }
 
 .row.fullscreen.align-items-center.justify-content-start {
     min-height: 650px !important;
 }
+
