@@ -6185,3 +6185,14 @@ footer .row {
     min-height: 650px !important;
 }
 
+img.wp-icon {
+    height: 60px;
+    width: auto;
+    padding-right: 18px;
+}
+#privercy-banner{
+    height: 500px;
+}
+#privercy-banner .owl-item {
+    width: 100%;
+}
