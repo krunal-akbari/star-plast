@@ -6208,3 +6208,10 @@ img.wp-icon {
 .mapbox > iframe {
         margin: 24px;
 }
+#about-us.section-padding {
+    padding: 150px 50px 50px 50px;
+}
+
+section#contact-us {
+    padding-top: 50px;
+}
