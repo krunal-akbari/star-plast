@@ -5573,7 +5573,8 @@ label {
     width: 100%;
     padding: 0px auto;
     margin-top: 80px;
-    margin-bottom: 100px; }
+    margin-bottom:0px;
+}
 
 .contact_info .info_item {
     position: relative;
@@ -6195,4 +6196,15 @@ img.wp-icon {
 }
 #privercy-banner .owl-item {
     width: 100%;
+}
+
+.mapbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mapbox > iframe {
+    margin: 24px;
+}
+.mapbox > iframe {
+        margin: 24px;
 }
