@@ -1043,7 +1043,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     padding: 0px;
     display: inline-block;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: #222222; }
 @media (min-width: 991px) {
@@ -6172,9 +6172,6 @@ footer .row {
 }
 /* end mobile version changes*/
 
-.nav-item .fa {
-    display: none;
-}
 
 .col-lg-5 {
     -ms-flex: 0 0 41.666667%;
@@ -6214,4 +6211,47 @@ img.wp-icon {
 
 section#contact-us {
     padding-top: 50px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 26px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 575.98px) {
+div#banner-text {
+    width: 100%;
+    max-width: 100%;
+}
+    .banner-area .banner-content {
+    padding-left: 0;
+    width: 100%;
+}
+    .row.single-slide {
+    display: flex;
+    justify-content: center;
+}
+}
+.gradient-bg, .primary-btn, .add-bag .add-btn, .single-product .product-details .prd-bottom .social-info span:after, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .s_Product_carousel .owl-dots div.active, .s_product_text .card_area .icon_btn:after, .product_description_area .nav.nav-tabs li a.active, .blog-pagination .page-item.active .page-link, .single-footer-widget .click-btn {
+    background: #dbdb3b;
+    color: black;
+}
+    a.add-btn {
+    font-size: 22px;
+}
+
+.footer-area {
+    padding-top: 100px;
+    background-color: #dbdb3a;
+    color: black;
+}
+.single-footer-widget h6 {
+    color: black;
+}
+.footer-social i {
+    color: #000;
 }
