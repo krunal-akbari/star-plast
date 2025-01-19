@@ -5969,8 +5969,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
 }
 .offer-grids .grid {
-    width: 50%
-        float: left;
+    width: 50%;
+    float: left;
     padding: 0 15px;
 }
 .offer-grids .details {
@@ -5985,7 +5985,7 @@ h1, h2, h3, h4, h5, h6 {
 .offer-text p, .offer-grids p, .parag {
     font-size: 1.13333rem;
     font-weight: 300;
-    text-align: justify;
+    text-align: left;
     line-height: 1.4em;
     color: #051829;
 }
@@ -6235,6 +6235,13 @@ div#banner-text {
     display: flex;
     justify-content: center;
 }
+    .offer-grids .grid {
+    width: 100% !important;
+}
+    .col-md-8 .offer-grids {
+    display: flex;
+    flex-direction: column;
+}
 }
 .gradient-bg, .primary-btn, .add-bag .add-btn, .single-product .product-details .prd-bottom .social-info span:after, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .s_Product_carousel .owl-dots div.active, .s_product_text .card_area .icon_btn:after, .product_description_area .nav.nav-tabs li a.active, .blog-pagination .page-item.active .page-link, .single-footer-widget .click-btn {
     background: #dbdb3b;
@@ -6254,4 +6261,14 @@ div#banner-text {
 }
 .footer-social i {
     color: #000;
+}
+.col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-4 {
+    flex: 0 0 50%;
+    max-width: 100%;
+    width: 100%;
 }
