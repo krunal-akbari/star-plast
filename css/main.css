@@ -6276,3 +6276,14 @@ div#banner-text {
 .col-md-12, .text-right {
     text-align: center  !important;
 }
+.contact_form .form-group .form-control {
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    width: 80%;
+    border: 2px solid #a6a6a6;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
