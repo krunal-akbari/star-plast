@@ -6287,3 +6287,7 @@ div#banner-text {
     padding-left: 20px;
     margin: 0 auto;
 }
+.testimonial-img-wrapper img {
+    border: 0px;
+    border-radius: 50px;
+}
